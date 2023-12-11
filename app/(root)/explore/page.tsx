@@ -22,7 +22,7 @@ const Page = () => {
 
   const getAllUsers = async () => {
     try {
-      const { data } = await axios.get(`/api/users?limit=20`);
+      const { data } = await axios.get(`/api/users?limit=40`);
       setAllUsers(data);
       setUsers(data);
       setIsLoading(false);
