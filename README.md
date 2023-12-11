@@ -1,1 +1,1 @@
-## Twitter-Y -- clone of the X (former Twitter)
+## TwitterY - clone of the X (former Twitter)
