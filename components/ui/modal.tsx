@@ -1,7 +1,7 @@
 import { ReactElement } from "react";
 
 import { Dialog, DialogContent } from "../ui/dialog";
-import { X, Backpack, ArrowLeft } from "lucide-react";
+import { X } from "lucide-react";
 import { cn } from "@/lib/utils";
 
 interface ModalProps {
@@ -18,7 +18,6 @@ interface ModalProps {
 }
 
 const Modal = ({
-  title,
   body,
   footer,
   isOpen,

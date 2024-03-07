@@ -31,7 +31,7 @@ const Sidebar = () => {
 
   return (
     <section className="max-md:hidden sticky left-0 top-0 h-screen lg:w-[266px] w-fit flex flex-col justify-between py-4 px-1">
-      <div className="flex flex-col space-y-2">
+      <div className="flex flex-col justify-between space-y-2">
         <Link
           href={"/"}
           className="rounded-full h-14 w-14 p-4 flex items-center justify-center hover:bg-sky-300 hover:bg-opacity-10 cursor-pointer transition"
